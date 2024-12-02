@@ -74,7 +74,7 @@ CreditCard card = new CreditCard(
 0
 );
 
-card.RegisterHandler(Show_Message);
+card.del+=Show_Message;
 
 card.PutSum(120);
 card.PullSum(1300);
@@ -83,3 +83,5 @@ static void Show_Message(string message)
 {
     Console.WriteLine(message);
 }
+
+

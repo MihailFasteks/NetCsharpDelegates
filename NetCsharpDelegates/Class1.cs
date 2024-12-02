@@ -202,7 +202,7 @@ namespace NetCsharpDelegates
             }
         }
      
-        CreditCardHandler del;
+        public event CreditCardHandler del;
 
         public void RegisterHandler(CreditCardHandler _del)
         {
